@@ -1,0 +1,9 @@
+<html>
+    <img>
+    <script>
+        img = document.querySelector('img')
+        setInterval(() => {
+            document.querySelector('img').src = `./screenshot.png?cachebuster=${Math.random()}`
+        }, 1000)
+    </script>
+</html>
